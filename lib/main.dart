@@ -9,8 +9,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Pet-finder Demo',
-      initialRoute: '/',
-      routes: getAplicationsRoutes(),
+      initialRoute: '/welcome',
+      routes: getApplicationRoutes(),
     );
   }
 }

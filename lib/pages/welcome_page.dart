@@ -42,7 +42,7 @@ class _WelcomePageState extends State<WelcomePage> {
               color: Colors.white,
             ),
           ),
-          onPressed: () => Navigator.pushNamed(context, '/homePage'),
+          onPressed: () => Navigator.pushNamed(context, '/'),
         ),
       ),
     );
