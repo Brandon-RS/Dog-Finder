@@ -86,11 +86,11 @@ class _BannerPageState extends State<BannerPage> {
       padding: EdgeInsets.only(bottom: 40),
       child: ElevatedButton(
         style: ButtonStyle(
-          padding: MaterialStateProperty.all(
+          padding: WidgetStateProperty.all(
             EdgeInsets.symmetric(horizontal: 34),
           ),
-          backgroundColor: MaterialStateProperty.all(Colors.black),
-          shape: MaterialStateProperty.all(
+          backgroundColor: WidgetStateProperty.all(Colors.black),
+          shape: WidgetStateProperty.all(
             RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(100),
             ),

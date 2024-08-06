@@ -1,6 +1,5 @@
+import 'package:dog_app/routes/routes.dart';
 import 'package:flutter/material.dart';
-
-import 'package:dog_app/src/routes/routes.dart';
 
 void main() => runApp(MyApp());
 
@@ -9,7 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Pet-finder Demo',
       initialRoute: '/',
       routes: getAplicationsRoutes(),
     );
